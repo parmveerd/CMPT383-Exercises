@@ -1,0 +1,20 @@
+Language Description #1
+(a) Version: C++11
+(b) C++11 is an imperative, object oriented, and procedural programming language.
+(c) C++11 programs are compiled using compilers such as GCC, for example.
+(d) C++11 has static typing and supports both static and dynamic binding. Static binding occurs at compile-time, while dynamic occurs at runtime and is based on the type of object.
+(e) C++11 is considered strongly typed as it enforces strict type checking.
+(f) C++11 supports manual memory management, as it gives users control through operations such as new and delete.
+(g) C++11 has first class functions through lambda expressions and they get variables from their surroundings, which allows them to form closures. 
+(h) C++11 has Standard Template Library threading, which provides support for concurrent programming. It does not have built-in support for parallel programming, but threads and atomic operations are a couple of features that facilitate parallelism.
+
+
+Language Description #2
+(a) Version: Python 3.9
+(b) Python 3.9 is an imperative, object-oriented, and procedural programming language. It also supports some functional programming as well.
+(c) Python 3.9 is an interpreted language. The code is compiled into bytecode before being executed by the interpreter.
+(d) Python 3.9 is dynamically typed and dynamically binded.
+(e) Python 3.9 is strongly typed. 
+(f) Python 3.9 has automatic memory management through a garbage collector. There are many implementations of this such as CPython (most common), PyPy, Jython, or IronPython, for example.
+(g) Python 3.9 supports first-class functions, where functions can be passed as arguments to other functions or returned from functions. It also supports closures, which are created from inner functions referencing variables from their scope.
+(h) Python 3.9 has many libraries for both concurrent and parallel programming, such as threading and mutliprocessing serving as examples for concurrent and parallel programming respectively.

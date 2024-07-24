@@ -1,0 +1,23 @@
+.into_iter():
+a. It takes the vector as its argument.
+b. It returns an iterator of type T.
+c. The values that are produced are of type T.
+d. Used when we want to change the ownership of the vector and consume the vector while iterating.
+
+.iter()
+a. Take reference to the vector as it does not need to own it and just needs to read elements.
+b. It returns an iterator of elements &T in vector.
+c. The values produced are references to elements of type T.
+d. It is used when we want to iterate over the elements without changing them.
+
+.iter_mut()
+a. It borrows the vector, since it needs to change the elements during iteration.
+b. It returns an iterator with mutable references to elements, &mut T.
+c. The values produced are mutable references to elements of type T.
+d. It is used when we want to iterate over elements of the vector, in order to change them.
+
+.drain()
+a. It borrows the vector, since it needs to be able to remove elements.
+b. It returns an elements of type T, that have been removed.
+c. The values produced are elements of type T.
+d. It is used when we want to rmeove elements from the vector wihtout altering the other elements.
